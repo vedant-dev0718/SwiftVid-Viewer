@@ -1,7 +1,7 @@
 package com.vedant.youtubeshorts.activities
 
 import android.os.Bundle
-import android.widget.Toast
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -28,11 +28,12 @@ class VideoShortActivity : AppCompatActivity() {
         adapter = SingleVideoAdapter(this)
         binding.pager2.adapter = adapter
 
+
         youtubeViewModel.list.observe(this, Observer {
             adapter.submitData(lifecycle, it)
         })
 
 
-
     }
+
 }
