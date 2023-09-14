@@ -1,7 +1,7 @@
 
-# Youtube Shorts Clone
+# SwiftVid Viewer
 
-YouTube Shorts is a way for anyone to connect with a new audience using just a smartphone and the Shorts camera in the YouTube app.
+SwiftVid Viewer is a way for anyone to connect with a new audience using just a smartphone and the Shorts camera in the YouTube app.
 
 ## Tools and Libraries I've used
 1.Retrofit
